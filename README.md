@@ -27,4 +27,4 @@ yarn start
 ## Autores
 
 -   [Nicolás Espínola](https://gitlab.com/nicolasespinolaxcx)
--   [Carlos Alvarez](https://gitlab.com/nicolasespinolaxcx)
+-   [Carlos Alvarez](https://gitlab.com/chuchobaez)
