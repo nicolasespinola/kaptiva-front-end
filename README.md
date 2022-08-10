@@ -1,4 +1,4 @@
-# Front-End - BuscoChef
+# Front-End - Kaptiva
 
 Desarrollo front-end de la web **KAPTIVA**.
 Este proyecto fue construido a partir de **[React.js](https://github.com/facebook/create-react-app)**.
