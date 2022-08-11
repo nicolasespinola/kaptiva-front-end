@@ -1,5 +1,6 @@
 import './App.css';
-import circle from './assets/img1.png';
+import circle from './assets/circle.svg';
+import circle2 from './assets/circle2.svg'
 import photoUno from './assets/img-n1.png';
 import photoDos from './assets/img-n2.png';
 import photoTres from './assets/img-n3.png';
@@ -19,37 +20,73 @@ function App() {
   return (
     <div>
       <div className="div-lila">
-        <img src={circle}/>
+        <img className='circle' src={circle} alt="" />   
         <h1 className='titulo'>Un nuevo<br/> modo de<br/> trabajo →</h1>
+        <p>Actividades <br/>
+        Espacios <br/>
+        Socios K <br/>
+        Planes <br/>
+        Contacto <br/>
+        </p>
       </div>
       <div className='div-naranja'>
         <h2 className='sec2'>actividades actividades actividades actividades actividades</h2>
-        <img className='estrella' src={star}/>
-        <img className='img-n' src={photoUno}/>
-        <img className='img-n' src={photoDos}/>
-        <img className='img-n'  src={photoTres}/>
-        <p>Talk Talks! <br/><span>01/02/22 - 18hs</span></p>
-        <p>Kapti-After <br/><span>07/02/22 - 19hs</span></p>
-        <p>Kulture Day <br/><span>07/02/22 - 19hs</span></p>
+        <img className='estrella' alt="" src={star} />
+        <div className='img-n01'>
+          <img alt="" src={photoUno} />
+          <p>Talk Talks! <br /><span>01/02/22 - 18hs</span></p>
+        </div>
+        <div className='img-n02'>
+          <img alt="" src={photoDos} />
+          <p>Kapti-After <br /><span>07/02/22 - 19hs</span></p>
+        </div>
+        <div className='img-n03'>
+          <img alt="" src={photoTres} />
+          <p>Kulture Day <br /><span>07/02/22 - 19hs</span></p>
+        </div>
       </div>
       <div className='div-sec3'>
         <h2 className='sec3'>Espacios</h2>
-        <img className='estrella1' src={photoEstrella1} />
-        <img className='img-n1'  src={photoS31}/>
-        <img className='img-n2'  src={photoS32}/>
-        <img className='img-n3'  src={photoS33}/>
-        <img className='img-n4'  src={photoS34}/>
-        <img className='img-n5'  src={photoS35}/>
-        <img className='img-n6'  src={photoS36}/>
+        <img className='estrella1' alt="" src={photoEstrella1} />
+        <img className='img-n1'  alt="" src={photoS31}/>
+        <img className='img-n2' alt="" src={photoS32}/>
+        <img className='img-n3' alt="" src={photoS33}/>
+        <img className='img-n4' alt="" src={photoS34}/>
+        <img className='img-n5' alt="" src={photoS35}/>
+        <img className='img-n6' alt="" src={photoS36}/>
       </div>
       <div className='div-sec4'>
         <h2 className='sec4'>Socios K</h2>
-        <img classname='img41' src={photoCuatroUno} />
-        <img classname='img42' src={photoCuatroDos} />
-        <img classname='img43' src={photoCuatroTres} />
-        <p className='p1'>Ultimate Lab Agency</p>
-        <p className='p2'>Mistral Web Design</p>
-        <p className='p3'>Maka Real Estate</p>
+        <div className='img41'>
+          <img alt="" src={photoCuatroUno} />
+          <p>Ultimate Lab Agency</p>
+        </div>
+        <div className='img42'>
+          <img alt="" src={photoCuatroDos} />
+          <p>Mistral Web Design</p>
+        </div>
+        <div className='img43'>
+          <img alt="" src={photoCuatroTres} />
+          <p>Maka Real Estate</p>
+        </div>
+      </div>
+      <div className='div-sec5'>
+        <h2 className='sec5'>Planes</h2>
+        <div>
+          <h3>Desk</h3>
+          <p>
+            Escritorio personal <br/>
+            Acceso 24/7 <br/>
+            Café de máquina <br/>
+            Acceso a comedor <br/>
+            Sala de reunión virtual<br/>
+            <br/>
+            <br />
+            <br />
+            <br />
+            <span>Gs 670.000 x PERSONA</span>
+          </p>
+        </div>
       </div>
     </div>
   );

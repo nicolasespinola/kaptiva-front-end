@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 .div-lila {
   background: #5D5FEF;
   height: 751px;
@@ -12,11 +16,25 @@
   line-height: 108px;
   color: #FFFFFF;
   margin-left: -50px;
+} 
+.div-lila p {
+  width: 123px;
+  height: 109px;
+  left: 1174px;
+  top: 575px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #FFFFFF;
 }
 
 .div-naranja {
-  background: #F2994A;
-  width: 1440px;
+  background: #F2994A; 
+  width: 100vw;
   height: 644px;
   left: 0px;
   top: 1388px;
@@ -26,11 +44,44 @@
   flex-wrap: wrap;
   gap: 20px;
 }
-.div-naranja p{
-  flex-wrap: wrap;
+
+.img-n01 img {
+  width: 370px;
+  height: 284px;
+  left: 145px;
+  top: 939px;
+  border-radius: 25px;
+}
+
+.img-n01 p {
   width: 370px;
   height: 28px;
   left: 145px;
+  top: 1248px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #5D5FEF;
+}
+.img-n01 span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.img-n02 img {
+  width: 370px;
+  height: 284px;
+  left: 535px;
+  top: 939px;
+  border-radius: 25px;
+}
+
+.img-n02 p {
+  width: 370px;
+  height: 28px;
+  left: 535px;
   top: 1248px;
   color: #5D5FEF;
   font-weight: 700;
@@ -38,32 +89,57 @@
   line-height: 29px;
 }
 
-.div-naranja p span {
+.img-n02 span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.img-n03 img{
+  width: 370px;
+  height: 284px;
+  left: 927px;
+  top: 939px;
+  border-radius: 25px;
+}
+
+.img-n03 p{
+  width: 370px;
+  height: 28px;
+  left: 145px;
+  top: 1248px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #5D5FEF;
+}
+.img-n03 span {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   color: #333333;
 }
-
 .sec2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
   color: #FFFFFF;
 }
-
 .estrella {
   position: absolute;
   width: 128px;
   height: 118px;
-  left: 90px;
-  top: 895px;
+  left: 0px;
+  top: 950px;
 }
 
+
 .div-sec3 {
+  position: absolute;
   background: #5D5FEF;
-  width: 1440px;
-  height: 538px;
+  width: 100vw;
+  height: 644px;
   left: 0px;
   top: 1388px;
   display: flex;
@@ -71,7 +147,10 @@
   align-items: center;
 }
 .sec3 {
-  margin-left: -1050px;
+  width: 219px;
+  height: 74px;
+  left: 159px;
+  top: 1770px;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
@@ -81,47 +160,36 @@
 }
 
 .img-n1 {
-  position: absolute;
   width: 333px;
   height: 213px;
-  left: 280px;
+  left: 2380px;
   top: 1476px;
 }
-
-.img-n2 {
-  position: absolute;
+.img-n2{
   width: 333px;
   height: 125px;
   left: 280px;
   top: 1713px;
 }
-
 .img-n3 {
-  position: absolute;
   width: 175px;
   height: 362px;
   left: 633px;
   top: 1476px;
 }
-
 .img-n4 {
-  position: absolute;
   width: 195px;
   height: 213px;
   left: 828px;
   top: 1476px;
 }
-
 .img-n5 {
-  position: absolute;
   width: 195px;
   height: 125px;
   left: 828px;
   top: 1713px;
 }
-
 .img-n6 {
-  position: absolute;
   width: 252px;
   height: 362px;
   left: 1043px;
@@ -129,7 +197,6 @@
 }
 
 .estrella1 {
-  position: absolute;
   width: 394px;
   height: 411px;
   left: 223px;
@@ -137,8 +204,8 @@
 }
 
 .div-sec4 {
-/*   position: absolute; */
-  width: 1440px;
+  position: absolute; 
+  width: 100vw; 
   height: 508px;
   left: 0px;
   top: 1926px;
@@ -150,49 +217,45 @@
   gap: 10px;
 }
 
-.img41 {
+.img41 img{
   width: 325px;
   height: 281px;
   left: 341px;
   top: 2032px;
-
 }
 
-.img42 {
-/*   position: absolute; */
+.img41 p {
+  color: #333333;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.img42 img{
   width: 325px;
   height: 281px;
   left: 694px;
   top: 2035px;
 }
 
-.img43 {
-/*   position: absolute; */
+.img42 p {
+  color: #333333;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.img43 img {
   width: 325px;
   height: 281px;
   left: 1047px;
   top: 2035px;
 }
 
-.p1 {
-  width: 325px;
-  height: 28px;
-  left: 341px;
-  top: 2331px;
-}
-
-.p2 {
-  width: 325px;
-  height: 28px;
-  left: 694px;
-  top: 2330px;
-}
-
-.p3 {
-  width: 325px;
-  height: 28px;
-  left: 1047px;
-  top: 2329px;
+.img43 p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .sec4 {
@@ -203,5 +266,18 @@
   margin-left: -100px;
   color: #FFFFFF;
   transform: rotate(-90deg);
+  text-align: center;
 }
 
+.div-sec5 {
+  background: #5D5FEF;
+  width: 100vw;
+  height: 644px;
+  left: 0px;
+  top: 1388px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
